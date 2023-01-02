@@ -78,3 +78,9 @@ class App extends React.Component {
 }
 
 ReactDOM.render(<App />, document.getElementById('root'))
+
+/*
+面试：什么是render props模式？
+在使用这个复用组件的时候给它传的prop是一个函数，函数的返回值，来指定渲染的内容，函数的参数，拿到复用组件内部的状态
+可以实现状态逻辑代码的复用，但没有实现UI结构的复用
+ */
